@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #FAA916;
+    color: white;
+}
+
+.logo{
+    transition: 0.3s all ease;
+}
+
+.logo:hover{
+    color: #FAA916;
+    transition: 0.3s all ease;
+}
+
+.texto-esquerda{
+    position: absolute;
+    bottom: -125px;
+    margin: 5px;
+}
+
+.paragrafo-titulo2{
+    margin-bottom: 20px;
+}
+
+.cabecalho ul{
+    height: 50px;
+    background-color: #1B1B1E;
+    padding: 5px 20px;
+}
+
+.cabecalho a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.menu{
+    float: right;
+}
+
+.menu li{
+    font-weight: 500;
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 25px;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+}
+
+.menu li:hover{
+    transition: 0.3s all ease;
+    background-color: #FAA916;
+    color: #1B1B1E;
+    border-radius: 5px;
+}
+
+.contato{
+    padding: 20px;
+    background-color: #1B1B1E;
+    margin: 5px;
+    position: absolute;
+    width: 450px;
+    height: 835px;
+    top: 80px;
+    right: 80px;
+    text-align: center;
+}
+
+.contato label, .contato textarea{
+    display: block;
+    width: 100%;
+}
+
+.contato input{
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.contato input[type=submit]{
+    background-color: #FAA916;
+    color: #1B1B1E;
+    font-weight: 700;
+    cursor: pointer;
+    height: 50px;
+}
+
+.contato input[type=submit]:hover{
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.contato textarea{
+    width: 380px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.contato input, .contato textarea{
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.main{
+    width: 60%;
+    background-color: #1B1B1E;
+    margin-top: 25px;
+    margin-left: 50px;
+    display: inline-block;
+    padding-bottom: 25px;
+}
+
+.titulo-main{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: white;
+}
+
+.paragrafo-main{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+.img img{
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 550px;
+}
